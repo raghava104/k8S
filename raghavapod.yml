@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: raghava-pod
+spec:
+  containers:
+  - name: raghava-container
+    image: nginx
+    ports:
+     - containerPort: 80
